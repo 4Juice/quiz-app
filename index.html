@@ -8,15 +8,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container mt-sm-5 my-1">
-        <div class="question ml-sm-5 pl-sm-5 pt-2">
-            <div class="py-2 h5" id="question"><b>Q. which option best describes your job role?</b></div>
-            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> <label id="a-answer" class="options" >Small Business Owner or Employee <input type="radio" name="radio"> <span class="checkmark"></span> </label> <label id="b-answer" class="options">Nonprofit Owner or Employee <input type="radio" name="radio"> <span class="checkmark"></span> </label> <label class="options" id="c-answer">Journalist or Activist <input type="radio" name="radio"> <span class="checkmark"></span> </label> <label class="options" id="d-answer">Other <input type="radio" name="radio"> <span class="checkmark"></span> </label> </div>
-        </div>
-        <div class="button-container">
-            <button class="btn btn-success" id="btn">Next</button> 
-        </div>
-    </div>
+    <div class="container">
+    <h2 id="question">question</h2>
+    <div class="ul1">
+    <div>
+        <ul>
+            <li>
+            <input type="radio" name="answer" id="a" class="answer">
+            <label for="a" id="a-answer">question</label>
+        </li>
+            <li>
+            <input type="radio" name="answer" id="b" class="answer">
+            <label for="b" id="b-answer">question</label>
+        </li>
+            <li>
+            <input type="radio" name="answer" id="c" class="answer">
+            <label for="c" id="c-answer">question</label>
+        </li>
+            <li>
+            <input type="radio" name="answer" id="d" class="answer">
+            <label for="d" id="d-answer">question</label>
+        </li>
+   </ul> </div></div>
+    <button id="btn">შემდეგი</button>
+</div>
+    
     <script src="main.js"></script>
 </body>
 </html>
